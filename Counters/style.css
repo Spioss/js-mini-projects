@@ -1,0 +1,48 @@
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Verdana;
+}
+
+#buttonsDiv {
+    text-align: center;
+}
+
+.buttons {
+    padding: 10px 20px;
+    font-size: 2em;
+    color: white;
+    background-color: hsl(220, 100%, 74%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: hsl(220, 100%, 56%);
+}
+
+.resbutton {
+    padding: 10px 20px;
+    font-size: 2em;
+    color: white;
+    background-color: hsl(0, 93%, 54%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.resbutton:hover {
+    background-color: hsl(0, 93%, 34%);
+}
+
+#randomLabel{
+    display: block;
+    font-size: 10em;
+    font-family: Verdana;
+}
+
+#randomDiv{
+    text-align: center;
+}
