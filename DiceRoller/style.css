@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+}
+
+h1{
+    border: 5px solid black;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 5px solid black;
+    background-color: rgba(225, 126, 255, 0.66);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 50px;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(223, 85%, 45%);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(223, 85%, 65%);
+}
+
+button:active{
+    background-color: hsl(143, 62%, 51%);
+}
+
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#diceResult {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 25px;
+    display: inline-block;
+}
+
+#diceImages Img{
+    width: 150px;
+}
