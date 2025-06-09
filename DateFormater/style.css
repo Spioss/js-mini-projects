@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    font-family: Verdana, sans-serif;
+}
+
+#datesDiv{
+    width: fit-content;
+    height: fit-content;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+#datesDiv:hover {
+    background-color: rgb(42, 196, 111);
+}
+
+#fdatesDiv:hover {
+    background-color: rgb(42, 196, 111);
+}
+
+#fdatesDiv{
+    width: fit-content;
+    height: fit-content;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+
+h1{
+    font-size: 1.5em;
+}
+
