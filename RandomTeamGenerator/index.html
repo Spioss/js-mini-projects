@@ -1,0 +1,57 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Input</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="team-input-container">
+    <h1>Players</h1>
+    <label for="player-count">Number of Players:</label>
+    <select id="player-count">
+      <option value="6" selected>6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select>
+
+    <datalist id="players-list">
+      <option value="Alex">
+      <option value="Spios">
+      <option value="Dominik">
+      <option value="Zoran">
+      <option value="Kajo">
+      <option value="Dando">
+      <option value="Arcanum">
+      <option value="Adam">
+      <option value="Rejnok">
+      <option value="Strnad">
+      <option value="Filip">
+    </datalist>
+
+    <form id="player-form"></form>
+    <button id="submit-btn" type="button">Shuffle Players</button>
+  </div>
+  <button id="copy-btn" type="button">Copy Teams</button>
+  <div class="result-players">
+    <div class="child">
+      <h1 style="color: rgb(223, 66, 66);">Red Team:</h1>
+      <p id="redteam"></p>
+    </div>
+    <div class="child">
+      <h1 style="color: rgb(106, 106, 215);">Blue Team:</h1>
+      <p id="blueteam"></p>
+    </div>
+  </div>
+
+  
+  
+
+    
+  <script src="index.js"></script>
+</body>
+</html>

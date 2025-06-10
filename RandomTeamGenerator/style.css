@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    font-family: monospace;
+}
+
+
+.team-input-container {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.team-input-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.team-input-container label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.team-input-container select,
+.team-input-container input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#submit-btn, #copy-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#submit-btn:hover, #copy-btn:hover {
+  background-color: #0ecb63;
+}
+
+#copy-btn{
+  width: 20%;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.result-players {
+  display: flex;
+  gap: 10px;
+  width: 50%;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 2em;
+  color: black;
+  font-family: monospace;
+}
+
+.child{
+  flex: 1;
+  padding: 2em;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+.child p{
+  font-size: 1.4em;
+}
