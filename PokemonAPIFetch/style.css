@@ -1,0 +1,23 @@
+input {
+    font-size: 2rem;
+}
+
+button{
+    font-size: 2rem;
+    border: none;
+    background-color: hsl(240, 48%, 53%);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(128, 48%, 53%);
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
